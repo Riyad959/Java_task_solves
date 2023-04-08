@@ -11,7 +11,7 @@ public class Task3_prob1 {
         int N = scan.nextInt();
 
         int[] arr = new int[N];
-        System.out.print("Enter " +Nn + " array elements: ");
+        System.out.print("Enter " + N + " array elements: ");
         for (int i = 0; i < N; i++) {
             arr[i] = scan.nextInt();
         }
