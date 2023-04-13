@@ -11,16 +11,16 @@ public class Task3_prob6 {
         //int num2 = 20;
         //int num3 = 30;
         
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter the first integer number: ");
-        int num1 = scanner.nextInt();
+        int num1 = scan.nextInt();
 
         System.out.print("Enter the second integer number: ");
-        int num2 = scanner.nextInt();
+        int num2 = scan.nextInt();
 
         System.out.print("Enter the third integer number: ");
-        int num3 = scanner.nextInt();
+        int num3 = scan.nextInt();
 
 
         int max = Math.max(num1, Math.max(num2, num3));
