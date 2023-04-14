@@ -15,11 +15,11 @@ public class Student_class {
         int i = 0;
         while (i < n) {
             students[i] = new Student(null, i, i);
-            System.out.print("Enter Name of Student " + i + ": ");
+            System.out.print("Enter Name of Student " + (i+1) + ": ");
             students[i].setName(scan.next());
-            System.out.print("Enter ID of Student " + i + ": ");
+            System.out.print("Enter ID of Student " + (i+1) + ": ");
             students[i].setId(scan.nextInt());
-            System.out.print("Enter Cgpa of Student " + i + ": ");
+            System.out.print("Enter Cgpa of Student " + (i+1) + ": ");
             students[i].setCgpa(scan.nextDouble());
             System.out.printf("\nDetails of student %d:\n", i + 1);
             System.out.println("Name: " + students[i].getName());
