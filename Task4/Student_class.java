@@ -12,7 +12,7 @@ public class Student_class {
         System.out.print("Number of Students: ");
         int n = scan.nextInt();
         Student[] students = new Student[n];
-        int i = 0;
+        int i = 0;//Student
         while (i < n) {
             students[i] = new Student(null, i, i);
             System.out.print("Enter Name of Student " + (i+1) + ": ");
