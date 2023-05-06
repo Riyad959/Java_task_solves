@@ -27,23 +27,36 @@ public class Student {
         Scanner scan = new Scanner(System.in);
 
         Student student1 = new Student();
-        System.out.println("Enter name, ID, and CGPA for 1st:");
-        String name1 = scan.next();
+        Student student2 = new Student();
+
+        // input for s1
+        System.out.print("Enter student1's name: ");
+        String name1 = scan.nextLine();
+        System.out.print("Enter student1's ID: ");
         int id1 = scan.nextInt();
+        System.out.print("Enter student1's CGPA: ");
         double cgpa1 = scan.nextDouble();
+        scan.nextLine();
+
+
         student1.insertRecord(name1, id1, cgpa1);
 
-        Student student2 = new Student();
-        System.out.println("Enter name, ID, and CGPA for 2nd:");
-        String name2 = scan.next();
+        // input for s2
+        System.out.print("Enter student2's name: ");
+        String name2 = scan.nextLine();
+        System.out.print("Enter student2's ID: ");
         int id2 = scan.nextInt();
+        System.out.print("Enter student2's CGPA: ");
         double cgpa2 = scan.nextDouble();
+
         student2.insertRecord(name2, id2, cgpa2);
 
-        System.out.println("1st Student :");
+        // Display korbo
+        System.out.println("\nStudent 1 Record:");
         student1.displayRecord();
-        System.out.println("2nd Student 2:");
+
+        System.out.println("\nStudent 2 Record:");
         student2.displayRecord();
+
     }
 }
-
